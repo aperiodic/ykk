@@ -8,7 +8,7 @@ Some utilities for clojure zippers:
 
 ## Usage
 
-Leiningen users, stick `[ykk "0.1.0"]` in your dependencies list.
+Leiningen users, stick `[ykk "1.0.0"]` in your dependencies list.
 Everybody else, why aren't you using leiningen?
 
 Every function has detailed docstrings, but if you'd like to look at some usage
