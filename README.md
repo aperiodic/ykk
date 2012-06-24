@@ -12,7 +12,9 @@ Leiningen users, stick `[ykk "0.1.0"]` in your dependencies list.
 Everybody else, why aren't you using leiningen?
 
 Every function has detailed docstrings, but if you'd like to look at some usage
-examples, see `examples/examples.clj`.
+examples, see [`examples/examples.clj`][ex].
+
+[ex]: https://github.com/aperiodic/ykk/blob/master/examples/examples.clj
 
 ## License
 

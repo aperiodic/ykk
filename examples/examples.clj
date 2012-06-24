@@ -6,7 +6,7 @@
 ;; ---------------------------------
 
 (def haystack (zip/vector-zip [:hay :hay [:needle :hay] :hay :hay]))
-(zip/node )
+
 (-> (ykk/find-leaf (partial = :needle) haystack) zip/node)
 ; => :needle
 
