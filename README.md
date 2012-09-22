@@ -20,4 +20,4 @@ examples, see [`examples/examples.clj`][ex].
 
 Copyright (c) 2012 Dan Lidral-Porter
 
-Distributed under the GNU Affero General Public License (see LICENSE).
+Distributed under the GNU Lesser General Public License (see LICENSE).
