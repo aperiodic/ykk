@@ -150,6 +150,18 @@
          nil
          (throw e))))))
 
+(defn map-locs*
+  ([f type-pred zipper]
+   (map-locs* f type-pred (constantly true) zipper))
+  ([f type-pred pred zipper]
+   (let [pred' (andf type-pred pred)]
+     (loop [loc zipper]
+       (if (zip/end? loc)
+         (zip/root loc)
+         (if (pred' loc)
+           (recur (zip/next (f loc)))
+           (recur (zip/next loc))))))))
+
 (defn- map*
   ([f type-pred zipper]
    (map* f type-pred (constantly true) (constantly true) zipper))
