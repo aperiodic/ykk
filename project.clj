@@ -1,4 +1,4 @@
-(defproject ykk "1.1.0-SNAPSHOT"
+(defproject ykk "1.1.0"
   :description "Some utilities for clojure zippers."
   :url "https://github.com/aperiodic/ykk"
   :license {:name "GNU Lesser General Public License"
